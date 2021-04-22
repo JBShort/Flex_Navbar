@@ -1,0 +1,50 @@
+.container{
+    height: 900px;
+    width: 900px;
+    margin: 0px auto;
+}
+.nav{
+    width: auto;
+    display: flex;
+    background-color: rgb(59, 59, 59);
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+}
+
+.nav-title{
+    color: white;
+    margin: 10px auto 10px 30px;
+}
+
+.nav-links{
+    margin: auto 30px auto auto;
+    padding: 10px;
+}
+
+
+.nav-links > li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links > button{
+    border: 2px solid black;
+    box-shadow: 2px solid black;
+    background-color: cadetblue;
+}
+
+button{
+    height: 25px;
+    width: 75px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    background-color: rgb(117, 165, 187);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
